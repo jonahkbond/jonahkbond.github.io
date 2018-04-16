@@ -54,12 +54,12 @@ jQuery(document).ready(function($) {
         }
     );
     
-    /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "IonicaBizau");
+    /* Github Calendar - https://github.com/jonahkbond/github-calendar */
+    GitHubCalendar("#github-graph", "jonahkbond");
     
     
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+    /* Github Activity Feed - https://github.com/jonahkbond/github-activity */
+    GitHubActivity.feed({ username: "jonahkbond", selector: "#ghfeed" });
 
 
 });
